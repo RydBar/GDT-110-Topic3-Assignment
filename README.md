@@ -3,4 +3,5 @@ To test unoptimized textures, make sure the "squareVar#" set of textures places 
 To test optimized textures, swap the set of "squareVar#" textures in the "Resources" folder with the other optimized set in the "Textures" folder.
 To test non-pooled bullets, make sure the "BulletSpawner" object is enabled, and the "Bullet Spawner" script on it is enabled. Disable the other scripts on the object.
 To test pooled bullets, make sure the "BulletSpawner" object is enabled, and the "Pooled Bullet Spawner" and "Bullet Pool" scripts are enabled. Disable the "Bullet Spawner" script on the object.
+Use the Canvas to see performance/memory information about the textures. Use the Unity Profiler to see peformance/memory information on the non-pooled/pooled bullet spawner
 The GitHib of the project is contained in the repository this README is in. Additional link: https://github.com/RydBar/GDT-110-Topic3-Assignment/tree/main
