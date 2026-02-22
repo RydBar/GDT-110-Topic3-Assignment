@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2395586036074695255}
   - component: {fileID: 2580231061660499388}
-  - component: {fileID: 863805198252336538}
+  - component: {fileID: -4188428384693507152}
   m_Layer: 0
-  m_Name: Bullet
+  m_Name: WorseBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
-  m_Color: {r: 0.08293664, g: 0.6830188, b: 0, a: 1}
+  m_Color: {r: 0.6603774, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -92,7 +92,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &863805198252336538
+--- !u!114 &-4188428384693507152
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -101,8 +101,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 3568249787256543510}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36365c9902087af43a03f88821074aba, type: 3}
+  m_Script: {fileID: 11500000, guid: b2a61d8c7d25de44dbbe2e39af37732c, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PooledBullet
+  m_EditorClassIdentifier: Assembly-CSharp::Bullet
   speed: 10
   lifetime: 3

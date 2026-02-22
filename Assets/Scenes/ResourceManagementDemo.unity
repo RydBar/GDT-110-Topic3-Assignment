@@ -248,13 +248,14 @@ GameObject:
   - component: {fileID: 881400293}
   - component: {fileID: 881400292}
   - component: {fileID: 881400295}
+  - component: {fileID: 881400296}
   m_Layer: 0
   m_Name: BulletSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &881400292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -262,13 +263,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 881400291}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 249c890bb8d6db248afe7d0dd6ac014c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PooledBulletSpawner
   pool: {fileID: 881400295}
-  spawnRate: 0.1
+  spawnRate: 0.01
 --- !u!212 &881400293
 SpriteRenderer:
   serializedVersion: 2
@@ -350,13 +351,27 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 881400291}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 07939a91efe2a0143aa3ae68c16fa91c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BulletPool
   bulletPrefab: {fileID: 3568249787256543510, guid: 2f27e0ce0c3a818478fa0048f6a7eb02, type: 3}
   poolSize: 50
+--- !u!114 &881400296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881400291}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91138eebad7b01c408eb3b08aa166d51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
+  bulletPrefab: {fileID: 3568249787256543510, guid: fed7d550db044794c8a71ba533d4d048, type: 3}
+  spawnRate: 0.01
 --- !u!1 &1022484198
 GameObject:
   m_ObjectHideFlags: 0
